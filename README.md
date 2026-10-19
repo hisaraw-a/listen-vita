@@ -23,4 +23,5 @@ And then, execute
 
 `make`
 
-If you did all of this correctly, you should get a .vpk file. This .vpk file is the application to install to your playstation vita. Also, do not use a emulator to run the file. This is because libcurl returns CURLE_SSL_CONNECT_ERROR, and this does not happen on real hardware.
+If you did all of this correctly, you should get a .vpk file. This .vpk file is the application to install to your playstation vita. Also, do not use a Vita3K to run the .vpk file. This is because libcurl returns CURLE_SSL_CONNECT_ERROR, and this does not happen on real hardware. The actual underlying reason has not been investigated. 
+
